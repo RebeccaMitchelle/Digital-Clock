@@ -14,6 +14,7 @@ function showTime(){
         session = "PM";
     }
     
+    /**Below is an example of a ternary operator. */
     h = (h < 10) ? "0" + h : h;
     m = (m < 10) ? "0" + m : m;
     s = (s < 10) ? "0" + s : s;

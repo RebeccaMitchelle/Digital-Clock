@@ -1,5 +1,11 @@
 body {
-    background: black;
+    background: white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#center{
     display:flex;
     align-items: center;
     justify-content: center;
@@ -7,8 +13,17 @@ body {
 
 .clock {
    
-    color: #17D4FE;
+    color: purple;
     font-size: 60px;
     letter-spacing: 7px;
 
+}
+
+
+.div{
+    color: purple;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    display: flex;
+    text-align: center;
 }
